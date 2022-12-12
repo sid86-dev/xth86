@@ -1,6 +1,7 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
+import Stars from "./Stars";
 
 const Landing = () => {
   return (

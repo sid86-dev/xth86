@@ -2,10 +2,9 @@ import Editor from "@monaco-editor/react";
 import React, { useState } from "react";
 import { codeSrc } from "../utils/helpers";
 import CodeView from "./CodeView";
-import View from "./CodeView";
 
 const MonacoEditor = () => {
-  function handleEditorChange(value, event) {
+  function handleEditorChange(value: any, event: any) {
     setFiles({ ...files, [fileName]: { ...file, value } });
     console.log(value);
   }
@@ -18,6 +17,7 @@ const MonacoEditor = () => {
   }
 
   const [fileName, setFileName] = useState<string>("index.html");
+  // @ts-ignore
   const [value, setValue] = useState<string>(codeSrc[fileName].value);
   const [files, setFiles] = useState<any>(codeSrc);
 
@@ -37,6 +37,7 @@ const MonacoEditor = () => {
     </html>
     `;
 
+  // @ts-ignore
   const file = codeSrc[fileName];
 
   console.log(srcDoc);

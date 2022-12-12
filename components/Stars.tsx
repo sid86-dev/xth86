@@ -9,27 +9,27 @@ export default function Stars() {
         autoPlay: true,
         background: {
           color: {
-            value: "#111111"
+            value: "#111111",
           },
           image: "",
           position: "",
           repeat: "",
           size: "",
-          opacity: 1
+          opacity: 1,
         },
         backgroundMask: {
           composite: "destination-out",
           cover: {
             color: {
-              value: "#fff"
+              value: "#fff",
             },
-            opacity: 1
+            opacity: 1,
           },
-          enable: false
+          enable: false,
         },
         backgroundMode: {
           enable: true,
-          zIndex: -1
+          zIndex: -1,
         },
         detectRetina: true,
         fpsLimit: 60,
@@ -38,20 +38,20 @@ export default function Stars() {
           delay: 0,
           enable: false,
           infections: 0,
-          stages: []
+          stages: [],
         },
         interactivity: {
           detectsOn: "window",
           events: {
             onClick: {
               enable: false,
-              mode: []
+              mode: [],
             },
             onDiv: {
               selectors: [],
               enable: false,
               mode: [],
-              type: "circle"
+              type: "circle",
             },
             onHover: {
               enable: false,
@@ -59,72 +59,72 @@ export default function Stars() {
               parallax: {
                 enable: false,
                 force: 2,
-                smooth: 10
-              }
+                smooth: 10,
+              },
             },
-            resize: false
+            resize: false,
           },
           modes: {
             attract: {
               distance: 200,
               duration: 0.4,
-              speed: 1
+              speed: 1,
             },
             bounce: {
-              distance: 200
+              distance: 200,
             },
             bubble: {
               distance: 200,
-              duration: 0.4
+              duration: 0.4,
             },
             connect: {
               distance: 80,
               links: {
-                opacity: 0.5
+                opacity: 0.5,
               },
-              radius: 60
+              radius: 60,
             },
             grab: {
               distance: 100,
               links: {
                 blink: false,
                 consent: false,
-                opacity: 1
-              }
+                opacity: 1,
+              },
             },
             light: {
               area: {
                 gradient: {
                   start: {
-                    value: "#ffffff"
+                    value: "#ffffff",
                   },
                   stop: {
-                    value: "#000000"
-                  }
+                    value: "#000000",
+                  },
                 },
-                radius: 1000
+                radius: 1000,
               },
               shadow: {
                 color: {
-                  value: "#000000"
+                  value: "#000000",
                 },
-                length: 2000
-              }
+                length: 2000,
+              },
             },
             push: {
-              quantity: 4
+              quantity: 4,
             },
             remove: {
-              quantity: 2
+              quantity: 2,
             },
             repulse: {
               distance: 200,
               duration: 0.4,
-              speed: 1
+              speed: 1,
             },
             slow: {
               factor: 3,
-              radius: 200
+              radius: 200,
             },
             trail: {
               delay: 0.005,
@@ -135,40 +135,40 @@ export default function Stars() {
                   animation: {
                     enable: true,
                     speed: 400,
-                    sync: true
-                  }
+                    sync: true,
+                  },
                 },
                 collisions: {
                   enable: false,
                   bounce: {
                     horizontal: {
-                      random: {}
+                      random: {},
                     },
                     vertical: {
-                      random: {}
-                    }
-                  }
+                      random: {},
+                    },
+                  },
                 },
                 links: {
                   enable: false,
                   shadow: {},
-                  triangles: {}
+                  triangles: {},
                 },
                 move: {
                   outMode: "destroy",
                   speed: 5,
                   angle: {},
                   attract: {
-                    rotate: {}
+                    rotate: {},
                   },
                   gravity: {},
                   noise: {
                     delay: {
-                      random: {}
-                    }
+                      random: {},
+                    },
                   },
                   outModes: {},
-                  trail: {}
+                  trail: {},
                 },
                 size: {
                   value: 5,
@@ -178,38 +178,38 @@ export default function Stars() {
                     minimumValue: 1,
                     sync: true,
                     startValue: "min",
-                    destroy: "max"
+                    destroy: "max",
                   },
-                  random: {}
+                  random: {},
                 },
                 bounce: {
                   horizontal: {
-                    random: {}
+                    random: {},
                   },
                   vertical: {
-                    random: {}
-                  }
+                    random: {},
+                  },
                 },
                 life: {
                   delay: {
-                    random: {}
+                    random: {},
                   },
                   duration: {
-                    random: {}
-                  }
+                    random: {},
+                  },
                 },
                 number: {
-                  density: {}
+                  density: {},
                 },
                 opacity: {
                   animation: {},
-                  random: {}
+                  random: {},
                 },
                 rotate: {
-                  animation: {}
+                  animation: {},
                 },
                 shadow: {
-                  offset: {}
+                  offset: {},
                 },
                 shape: {},
                 stroke: {
@@ -218,94 +218,94 @@ export default function Stars() {
                     animation: {
                       enable: false,
                       speed: 0,
-                      sync: false
-                    }
-                  }
+                      sync: false,
+                    },
+                  },
                 },
                 twinkle: {
                   lines: {},
-                  particles: {}
-                }
-              }
-            }
-          }
+                  particles: {},
+                },
+              },
+            },
+          },
         },
         manualParticles: [],
         motion: {
           disable: false,
           reduce: {
             factor: 16,
-            value: true
-          }
+            value: true,
+          },
         },
         particles: {
           bounce: {
             horizontal: {
               random: {
                 enable: false,
-                minimumValue: 12
+                minimumValue: 12,
               },
-              value: 1
+              value: 1,
             },
             vertical: {
               random: {
                 enable: false,
-                minimumValue: 0.1
+                minimumValue: 0.1,
               },
-              value: 1
-            }
+              value: 1,
+            },
           },
           collisions: {
             bounce: {
               horizontal: {
                 random: {
                   enable: false,
-                  minimumValue: 0.1
+                  minimumValue: 0.1,
                 },
-                value: 1
+                value: 1,
               },
               vertical: {
                 random: {
                   enable: false,
-                  minimumValue: 0.1
+                  minimumValue: 0.1,
                 },
-                value: 1
-              }
+                value: 1,
+              },
             },
             enable: true,
-            mode: "bounce"
+            mode: "bounce",
           },
           color: {
             value: "#cecece",
             animation: {
               enable: false,
               speed: 100,
-              sync: false
-            }
+              sync: false,
+            },
           },
           life: {
             count: 37,
             delay: {
               random: {
                 enable: false,
-                minimumValue: 0
+                minimumValue: 0,
               },
               value: 0,
-              sync: false
+              sync: false,
             },
             duration: {
               random: {
                 enable: false,
-                minimumValue: 0.0001
+                minimumValue: 0.0001,
               },
               value: 0,
-              sync: true
-            }
+              sync: true,
+            },
           },
           links: {
             blink: true,
             color: {
-              value: "random"
+              value: "random",
             },
             consent: false,
             distance: 100,
@@ -315,28 +315,28 @@ export default function Stars() {
             shadow: {
               blur: false,
               color: {
-                value: "#00ff00"
+                value: "#00ff00",
               },
-              enable: false
+              enable: false,
             },
             triangles: {
               enable: false,
-              frequency: 0
+              frequency: 0,
             },
             width: 1,
-            warp: false
+            warp: false,
           },
           move: {
             angle: {
               offset: 45,
-              value: 90
+              value: 90,
             },
             attract: {
               enable: false,
               rotate: {
                 x: 3000,
-                y: 3000
-              }
+                y: 3000,
+              },
             },
             direction: "none",
             distance: 0,
@@ -344,20 +344,20 @@ export default function Stars() {
             gravity: {
               acceleration: 9.81,
               enable: false,
-              maxSpeed: 50
+              maxSpeed: 50,
             },
             noise: {
               delay: {
                 random: {
                   enable: false,
-                  minimumValue: 0
+                  minimumValue: 0,
                 },
-                value: 0
+                value: 0,
               },
-              enable: false
+              enable: false,
             },
             outModes: {
-              default: "out"
+              default: "out",
             },
             random: false,
             size: false,
@@ -367,33 +367,33 @@ export default function Stars() {
               enable: false,
               length: 10,
               fillColor: {
-                value: "#000000"
-              }
+                value: "#000000",
+              },
             },
             vibrate: false,
-            warp: false
+            warp: false,
           },
           number: {
             density: {
               enable: true,
               area: 800,
-              factor: 1000
+              factor: 1000,
             },
             limit: 0,
-            value: 100
+            value: 100,
           },
           opacity: {
             random: {
               enable: true,
-              minimumValue: 0.3
+              minimumValue: 0.3,
             },
             value: 0.8,
             animation: {
               enable: true,
               minimumValue: 0.3,
               speed: 0.5,
-              sync: false
-            }
+              sync: false,
+            },
           },
           reduceDuplicates: false,
           rotate: {
@@ -402,30 +402,30 @@ export default function Stars() {
             animation: {
               enable: false,
               speed: 0,
-              sync: false
+              sync: false,
             },
             direction: "clockwise",
-            path: false
+            path: false,
           },
           shadow: {
             blur: 51,
             color: {
-              value: "#000000"
+              value: "#000000",
             },
             enable: false,
             offset: {
               x: 0,
-              y: 0
-            }
+              y: 0,
+            },
           },
           shape: {
             options: {},
-            type: "circle"
+            type: "circle",
           },
           size: {
             random: {
               enable: true,
-              minimumValue: 1
+              minimumValue: 1,
             },
             value: 3,
             animation: {
@@ -434,36 +434,25 @@ export default function Stars() {
               minimumValue: 1,
               speed: 3,
               startValue: "max",
-              sync: false
-            }
-          },
-          stroke: {
-            width: 0,
-            color: {
-              value: "",
-              animation: {
-                enable: false,
-                speed: 0,
-                sync: false
-              }
-            }
+              sync: false,
+            },
           },
           twinkle: {
             lines: {
               enable: false,
               frequency: 0.05,
-              opacity: 1
+              opacity: 1,
             },
             particles: {
               enable: false,
               frequency: 13,
-              opacity: 1
-            }
-          }
+              opacity: 1,
+            },
+          },
         },
         pauseOnBlur: false,
         pauseOnOutsideViewport: true,
-        themes: []
+        themes: [],
       }}
     />
   );

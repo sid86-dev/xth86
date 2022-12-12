@@ -1,4 +1,6 @@
-export const codeSrc = {
+import { ICodeSRC } from "../types";
+
+export const codeSrc: ICodeSRC = {
   "script.js": {
     name: "script.js",
     language: "javascript",
